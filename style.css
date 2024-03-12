@@ -1,0 +1,96 @@
+body {
+    font-family: "Inter";
+}
+
+.container {
+    display: flex;
+    column-gap: 100px;
+    padding: 102px 217px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.newPost {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    width: 500px;
+}
+
+.newPost_inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    font-family: "Inter";
+}
+
+.newPost-title, .newPost-text {
+    height: 60px;
+    border: 1px solid #000000;
+    padding-left: 20px;
+    font-family: "Inter";
+    font-size: 32px;
+}
+
+.newPost-text {
+    height: 250px;
+}
+
+.btnPost {
+    height: 60px;
+    background-color: #0094FF;
+    border: none;
+    color: #ffffff;
+    font-family: "Inter";
+    font-size: 32px;
+}
+
+.btnPost:disabled {
+    background-color: gray;
+    
+}
+
+.validationMessage {
+    color: red;
+}
+
+.validationMessage_hidden {
+    display: none;
+}
+
+.publicPost {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.publicPost_title {
+    font-size: 32px;
+}
+
+.post {
+    max-width: 500px;
+}
+
+.post_date {
+    padding-bottom: 15px;
+    color: #0094FF;
+    font-size: 25px;
+}
+
+.post_title {
+    padding-bottom: 15px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.post_text {
+    padding-bottom: 50px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+}
